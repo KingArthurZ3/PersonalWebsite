@@ -1,0 +1,147 @@
+
+/*Main Website usage*/
+body {
+    margin: 0;
+    background: #000;
+    background-size: cover;
+    overflow: hidden;
+}
+html{
+    font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+    overflow-y: scroll;
+}
+
+#title{
+    background-image: url("ProjectsHeader.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    zoom: 1;
+    /*!*filter: alpha(opacity=50);*!*/
+    /*opacity: 0.5;*/
+    font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+
+}
+
+#separator{
+    display:inline-block;
+    float:left;
+    margin-top: 30px;
+}
+
+#project{
+    text-align: center;
+    display: inline-block;
+    height: 150px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 80px;
+
+}
+#collection
+{
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+.row .col-md-6{
+    display:inline-block;
+    width: 200px;
+    position: relative;
+    margin: 40px;
+    float: left;
+    height: 30%
+}
+
+#github{
+    background-image: url("GitHub-Mark.png");
+    display: inline-block;
+    float: right;
+    margin-top: 60px;
+    margin-right: 60px;
+    height: 100px;
+    width: 100px;
+
+}
+
+/** The navigation menu links *!*/
+
+.sidenav {
+    height: 40%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: transparent; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    display:block;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offCanvas a:focus{
+    color: #C0C0C0;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*Added nav bar side*/
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#content {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#navButton{
+    border-style: none;
+    background-color:transparent;
+    background-image: url("navImage.png");
+    background-size: 100%;
+    background-origin: content-box;
+    width: 60px;
+    height: 30px;
+    float:left;
+    display: block;
+    overflow: hidden;
+
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}

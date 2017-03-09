@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    background: #000;
+    background-size: cover;
+    overflow: hidden;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('Love-Coding.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+.stopfade {
+    opacity: .5;
+}
+
+#arthur {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:100;
+    background: transparent;
+    color: white;
+    padding: 2rem;
+    width: 33%;
+    margin:2rem;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 1.2rem;
+}
+#name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#arthur button {
+    display: block;
+    width: 80%;
+    padding: .4rem;
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    background: rgba(255,255,255,0.23);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s background;
+    margin-left: auto;
+    margin-right: auto;
+}
+#arthur button:hover {
+    background: rgba(0,0,0,0.5);
+}
+/*Old Nav a formatting*/
+/*a {*/
+    /*display: inline-block;*/
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+    /*background:rgba(0,0,0,0.5);*/
+    /*padding: .5rem;*/
+    /*transition: .6s background;*/
+/*}*/
+/*a:hover{*/
+    /*background:rgba(0,0,0,0.9);*/
+/*}*/
+@media screen and (max-width: 500px) {
+    div{width:70%;}
+}
+@media screen and (max-device-width: 800px) {
+    html { background: url(Love-Coding.jpg) #000 no-repeat center center fixed; }
+    #bgvid { display: none; }
+}
+/*Old Nav panel*/
+/*.nav{*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*border:1px solid #ccc;*/
+    /*border-width:1px 0;*/
+    /*list-style:none;*/
+    /*margin:0;*/
+    /*padding:0;*/
+    /*text-align:center;*/
+    /*font-size: 0;*/
+
+/*}*/
+/*.nav li{*/
+    /*display:inline-block;*/
+    /*width: 20%;*/
+    /*font-size: 16px;*/
+
+/*}*/
+/*.nav a{*/
+    /*display: block;*/
+    /*padding:20px;*/
+    /*background-color: transparent;*/
+    /*text-decoration: none;*/
+    /*text-transform: uppercase;*/
+    /*font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;*/
+    /*font-weight: bold;*/
+    /*background-color: transparent;*/
+/*}*/
+/*.nav a:hover {*/
+    /*background-color: lightblue;*/
+/*}*/
+/* The side navigation menu */
+.sidenav {
+    height: 40%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: transparent; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    display:block;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offCanvas a:focus{
+    color: #C0C0C0;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#content {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.social {
+    position: absolute;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.social .link {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    background-clip: content-box;
+    padding: 10px;
+    transition: .5s;
+    color: #D7D0BE;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-shadow:
+            0 -1px 0 rgba(0, 0, 0, 0.2),
+            0 1px 0 rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+}
+
+.social .link span {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+    padding: 20px;
+    color: white;
+    margin-left: -5px;
+    transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.google-plus {
+    background-color: tomato;
+    color: white;
+}
+
+.social .link.twitter {
+    background-color: #00ACEE;
+    color: white;
+}
+
+.social .link.facebook {
+    background-color: #3B5998;
+    color: white;
+}
+
+img#coverPhoto{
+    width: 300px;
+    height: 500px;
+}
+
+
+#navButton{
+    border-style: none;
+    background-color:transparent;
+    background-image: url("navImage.png");
+    background-size: 100%;
+    background-origin: content-box;
+    width: 60px;
+    height: 30px;
+    float:left;
+    display: inline-block;
+    overflow: hidden;
+
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
