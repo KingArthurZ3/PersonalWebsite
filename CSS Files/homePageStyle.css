@@ -14,7 +14,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url('Love-Coding.jpg') no-repeat;
+    background: url('../Resources/Love-Coding.jpg') no-repeat;
     background-size: cover;
     transition: 1s opacity;
 }
@@ -80,7 +80,7 @@ p{
     div{width:70%;}
 }
 @media screen and (max-device-width: 800px) {
-    html { background: url(Love-Coding.jpg) #000 no-repeat center center fixed; }
+    html { background: url(../Resources/Love-Coding.jpg) #000 no-repeat center center fixed; }
     #bgvid { display: none; }
 }
 /*Old Nav panel*/
@@ -234,7 +234,7 @@ img#coverPhoto{
 #navButton{
     border-style: none;
     background-color:transparent;
-    background-image: url("navImage.png");
+    background-image: url("../Resources/navImage.png");
     background-size: 100%;
     background-origin: content-box;
     width: 60px;

@@ -12,7 +12,7 @@ html{
 }
 
 #title{
-    background-image: url("ProjectsHeader.jpg");
+    background-image: url("../Resources/ProjectsHeader.jpg");
     -webkit-background-size: cover;
     -moz-background-size:  cover;
     -o-background-size: cover;
@@ -64,7 +64,7 @@ html{
 }
 
 #github{
-    background-image: url("GitHub-Mark.png");
+    background-image: url("../Resources/GitHub-Mark.png");
     display: inline-block;
     float: right;
     margin-top: 60px;
@@ -128,7 +128,7 @@ html{
 #navButton{
     border-style: none;
     background-color:transparent;
-    background-image: url("navImage.png");
+    background-image: url("../Resources/navImage.png");
     background-size: 100%;
     background-origin: content-box;
     width: 60px;
