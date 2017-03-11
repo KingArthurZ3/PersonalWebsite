@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f2bdc4f-f482-41ea-aa17-2237c9563554" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Coder.mp4" afterPath="$PROJECT_DIR$/Resources/Coder.mp4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Coder.webm" afterPath="$PROJECT_DIR$/Resources/Coder.webm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CreativeMess.jpg" afterPath="$PROJECT_DIR$/Resources/CreativeMess.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/GitHub-Mark.png" afterPath="$PROJECT_DIR$/Resources/GitHub-Mark.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IMG_4071.jpg" afterPath="$PROJECT_DIR$/Resources/IMG_4071.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Love-Coding.jpg" afterPath="$PROJECT_DIR$/Resources/Love-Coding.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Love-Coding.mp4" afterPath="$PROJECT_DIR$/Resources/Love-Coding.mp4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Love-Coding.ogv" afterPath="$PROJECT_DIR$/Resources/Love-Coding.ogv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Love-Coding.webm" afterPath="$PROJECT_DIR$/Resources/Love-Coding.webm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects.html" afterPath="$PROJECT_DIR$/HTML Files/Projects.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ProjectsBackground.jpg" afterPath="$PROJECT_DIR$/Resources/ProjectsBackground.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ProjectsBackgroundStyle.css" afterPath="$PROJECT_DIR$/CSS Files/ProjectsBackgroundStyle.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ProjectsHeader.jpg" afterPath="$PROJECT_DIR$/Resources/ProjectsHeader.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/HTML Files/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/HTML Files/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/homePage.js" afterPath="$PROJECT_DIR$/Javascript Files/homePage.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/homePageStyle.css" afterPath="$PROJECT_DIR$/CSS Files/homePageStyle.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/HTML Files/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/Javascript Files/jquery-3.1.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/navImage.png" afterPath="$PROJECT_DIR$/Resources/navImage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/GitHub-Mark.png" afterPath="$PROJECT_DIR$/Resources/GitHub-Mark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS Files/ProjectsBackgroundStyle.css" afterPath="$PROJECT_DIR$/CSS Files/ProjectsBackgroundStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS Files/homePageStyle.css" afterPath="$PROJECT_DIR$/CSS Files/homePageStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML Files/Projects.html" afterPath="$PROJECT_DIR$/HTML Files/Projects.html" />
     </list>
     <ignored path="MyWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,21 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="homePageStyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS Files/homePageStyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML Files/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            <state relative-caret-position="135">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -67,14 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Projects.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML Files/Projects.html">
+      <file leaf-file-name="homePageStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS Files/homePageStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="183">
+              <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,9 +54,21 @@
       <file leaf-file-name="ProjectsBackgroundStyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS Files/ProjectsBackgroundStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="435">
+              <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projects.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML Files/Projects.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,6 +103,8 @@
         <option value="$PROJECT_DIR$/projects.js" />
         <option value="$PROJECT_DIR$/ProjectsBackgroundStyle.css" />
         <option value="$PROJECT_DIR$/Projects.html" />
+        <option value="$PROJECT_DIR$/CSS Files/homePageStyle.css" />
+        <option value="$PROJECT_DIR$/CSS Files/ProjectsBackgroundStyle.css" />
         <option value="$PROJECT_DIR$/HTML Files/Projects.html" />
       </list>
     </option>
@@ -157,8 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,8 +162,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -724,12 +724,13 @@
       <workItem from="1488987061066" duration="6307000" />
       <workItem from="1489039710445" duration="286000" />
       <workItem from="1489040039566" duration="672000" />
-      <workItem from="1489040849856" duration="221000" />
+      <workItem from="1489040849856" duration="474000" />
+      <workItem from="1489216195318" duration="4829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59066000" />
+    <option name="totallyTimeSpent" value="64148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1144,11 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/GitHub-Mark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML Files/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1170,41 +1166,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/ProjectsBackground.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/GitHub-Mark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Files/homePageStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML Files/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS Files/homePageStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/ProjectsBackground.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS Files/ProjectsBackgroundStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="435">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML Files/Projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+        <state relative-caret-position="135">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

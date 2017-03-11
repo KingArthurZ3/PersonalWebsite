@@ -50,7 +50,7 @@ html{
     font-family: 'Ubuntu', sans-serif;
     height: 40px;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 200px;
     margin-bottom: 60px;
 }
 
@@ -63,21 +63,98 @@ html{
     height: 30%
 }
 
-#github{
-    background-image: url("../Resources/GitHub-Mark.png");
+/*this is for the social media icons*/
+#socialIcons{
     display: inline-block;
     float: right;
-    margin-top: 60px;
-    margin-right: 60px;
-    height: 100px;
-    width: 100px;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+.iconsContainer {
+    color:#fff;
+    background: transparent;
+    border-radius:4px;
+    text-align:center;
+    text-decoration:none;
+    font-family:fontawesome;
+    position: relative;
+    display: inline-block;
+    width:40px;
+    height:28px;
+    padding-top:12px;
+    margin:0 2px;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -webkit-font-smoothing: antialiased;
+}
 
+.iconsContainer:hover {
+    background: white;
+    color: black;
+}
+
+/* pop-up text */
+
+.iconsContainer span {
+    color:#666;
+    position:absolute;
+    font-family:sans-serif;
+    bottom:0;
+    left:-25px;
+    right:-25px;
+    padding:5px 7px;
+    z-index:-1;
+    font-size:14px;
+    border-radius:2px;
+    background:#fff;
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* pop-up text arrow */
+
+.iconsContainer span:before {
+    content:'';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-5px;
+    left:40px;
+}
+
+/* text pops up when icon is in hover state */
+
+.iconsContainer:hover span {
+    bottom:50px;
+    visibility:visible;
+    opacity:1;
+}
+
+/* font awesome icons */
+
+.iconsContainer:nth-of-type(1):before {
+    content:'\f09a';
+}
+.iconsContainer:nth-of-type(2):before {
+    content:'\f08c';
+}
+.iconsContainer:nth-of-type(3):before {
+    content:'\f113';
 }
 
 /** The navigation menu links *!*/
 
 .sidenav {
-    height: 40%; /* 100% Full-height */
+    height: 30%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
@@ -85,7 +162,7 @@ html{
     left: 0;
     background-color: transparent; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 40px; /* Place content 60px from the top */
+    padding-top: 30px; /* Place content 20px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     display:block;
 }
@@ -111,6 +188,7 @@ html{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    margin-top: 20px;
 }
 
 /*Added nav bar side*/
@@ -137,9 +215,9 @@ html{
     display: block;
     overflow: hidden;
 
-    border-radius: 5px;
+    border-radius: 0px;
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 a{
     font-family: 'Ubuntu', sans-serif;

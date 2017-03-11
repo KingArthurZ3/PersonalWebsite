@@ -117,7 +117,7 @@ p{
 /*}*/
 /* The side navigation menu */
 .sidenav {
-    height: 40%; /* 100% Full-height */
+    height: 30%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
@@ -125,7 +125,7 @@ p{
     left: 0;
     background-color: transparent; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 40px; /* Place content 60px from the top */
+    padding-top: 30px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     display:block;
 }
@@ -243,9 +243,9 @@ img#coverPhoto{
     display: inline-block;
     overflow: hidden;
 
-    border-radius: 5px;
+    border-radius: 0px;
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 a{
     font-family: 'Ubuntu', sans-serif;
