@@ -2,13 +2,38 @@
 /*Main Website usage*/
 body {
     margin: 0;
-    background: #000;
+    background: lightgray;
     background-size: cover;
     overflow: hidden;
 }
 html{
-    font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+
     overflow-y: scroll;
+}
+
+#row-portfolio{
+    display:block;
+    width: 100%;
+    padding-top: 6%;
+    height: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.intro{
+    font-size: 20px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #title{
@@ -20,15 +45,32 @@ html{
     zoom: 1;
     /*!*filter: alpha(opacity=50);*!*/
     /*opacity: 0.5;*/
-    font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: white;
     font-size: 40px;
 
 }
 
+/*title decoration*/
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 2px auto;
+    height: 0;
+    width: 20%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border-radius: 80%;
+    border-top: 1px solid#24b662;
+    border-bottom: 1px solid#24b662;
+}
+
 #separator{
-    display:inline-block;
-    float:left;
+    display:block;
+    float: left;
     margin-top: 30px;
 }
 
@@ -42,6 +84,32 @@ html{
     font-size: 80px;
 
 }
+
+#project-selector-list{
+    display: block;
+    padding-top: 40px;
+    width: 50%;
+    margin-left: 37%;
+}
+.project-selector-button:hover{
+    background-color: #24b662;
+}
+
+.project-selector{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.project-selector-button{
+    border: none;
+    border-radius: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    min-width: 50px;
+}
+
 #collection
 {
     color: whitesmoke;
