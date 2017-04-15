@@ -102,12 +102,17 @@ hr {
 
 .project-selector-button{
     border: none;
+    outline: none;
     border-radius: 15px;
     font-family: 'Ubuntu', sans-serif;
     background-color: transparent;
     color: white;
     height: 40px;
     min-width: 50px;
+}
+
+#all{
+    background-color: #24b662;
 }
 
 #collection
