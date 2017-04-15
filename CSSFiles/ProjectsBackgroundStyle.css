@@ -111,8 +111,15 @@ hr {
     min-width: 50px;
 }
 
-#all{
+.project-selector-color{
     background-color: #24b662;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    height: 40px;
+    min-width: 50px;
 }
 
 #collection

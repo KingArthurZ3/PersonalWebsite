@@ -42,11 +42,15 @@
 //
 // }
 
-$(".project-selector-button").click(function () {
+$(document).ready(function(){
+    $("#all").addClass("project-selector-color");
 
-    $(".project-selector-button").removeClass("#24b662"); // Remove 'blue' CSS Class from all Buttons
+    $(".project-selector-button").click(function () {
 
-    $(this).addClass("#24b662");
+        $(".project-selector-button").removeClass("project-selector-color"); // Remove 'blue' CSS Class from all Buttons
 
+        $(this).addClass("project-selector-color");
+
+    });
 });
 
