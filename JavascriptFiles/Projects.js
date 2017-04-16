@@ -52,5 +52,18 @@ $(document).ready(function(){
         $(this).addClass("project-selector-color");
 
     });
+
+    window.onload = function(){
+        $(document).websiteSizeAdjuster()
+    }
+
+    function websiteSizeAdjuster(){
+        if( $(".grid").hasClass("websites")){
+            $(".websites").style.width = "35%"
+            $(".websites").style.height = "25%"
+        }
+        alert("running")
+    }
+
 });
 

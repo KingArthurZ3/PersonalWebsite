@@ -2,14 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
+    <!-- stylesheets -->
     <link href="../CSSFiles/ProjectsBackgroundStyle.css" rel="stylesheet" >
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <link href="../CSSFiles/component.css" type="text/css" rel="stylesheet">
+    <link href="../CSSFiles/flickity.css" type="text/css" rel="stylesheet">
+    <!--<link href="../CSSFiles/projectGrid.css" type="text/css" rel="stylesheet">-->
+    <link href="../CSSFiles/style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--scripts-->
     <script src="../JavascriptFiles/jquery-3.1.1.min.js"></script>
     <script src="../JavascriptFiles/Projects.js"></script>
     <script src ="../JavascriptFiles/homePage.js"></script>
+    <script src="../JavascriptFiles/isotope.pkgd.min.js"></script>
+    <script src="../JavascriptFiles/flickity.pkgd.min.js"></script>
+    <script src="../JavascriptFiles/modernizr.custom.js"></script>
+    <script src="../JavascriptFiles/main.js"></script>
 </head>
 <body>
 <div id="mySideNav" class="sidenav">
@@ -25,32 +39,127 @@
     <a href="https://www.linkedin.com/in/arthur-z-9209a512a/" class="iconsContainer"><span>Linkedin</span></a>
     <a href="https://github.com/KingArthurZ3" class="iconsContainer"><span>Github</span></a>
 </div>
-<div id="main">
-
-    <div id="title">
-        <div id="separator">
-            <button onclick="openNav()" id="navButton"></button>
-        </div>
+<div id="title">
+    <div id="separator">
+        <button onclick="openNav()" id="navButton"></button>
     </div>
+</div>
 
-    <div id="row-portfolio">
-        <p class="header">My Portfolio.</p>
-
-    </div>
-    <hr>
-    <hr>
-    <div class="intro" >
-        Here are some of the projects that I have worked on previously.
-    </div>
-
-    <ul id="project-selector-list">
-        <li class="project-selector"><button class="project-selector-button" id="all">   All   </button></li>
-        <li class="project-selector"><button class="project-selector-button" id="apps" >Apps</button></li>
-        <li class="project-selector"><button class="project-selector-button" id="websites">Websites</button></li>
-        <li class="project-selector"><button class="project-selector-button" id="misc">Miscellaneous</button></li>
-    </ul>
+<div id="row-portfolio">
+    <p class="header">My Portfolio.</p>
 
 </div>
+<hr>
+<hr>
+<div class="intro" >
+    Here are some of the projects that I have worked on previously.
+</div>
+<!-- Bottom bar with filter and cart info -->
+<div class="bar">
+    <div class="filter">
+        <button class="action filter__item filter__item--selected" data-filter="*">All</button>
+        <button class="action filter__item" data-filter=".apps"><i class="icon icon--jacket"></i><span class="action__text">Apps</span></button>
+        <button class="action filter__item" data-filter=".websites"><i class="icon icon--shirt"></i><span class="action__text">Websites</span></button>
+        <button class="action filter__item" data-filter=".misc"><i class="icon icon--dress"></i><span class="action__text">Misc</span></button>
+    </div>
+</div>
+<!-- Main view -->
+<div class="view">
+
+    <!-- Grid -->
+    <section class="grid grid--loading">
+        <!-- Loader -->
+        <img class="grid__loader" src="../Resources/grid.svg" width="60" alt="Loader image" />
+        <!-- Grid sizer for a fluid Isotope (Masonry) layout -->
+        <div class="grid__sizer"></div>
+        <!-- Grid items -->
+        <div class="grid__item apps">
+            <div class="slider">
+                <div class="slider__item"><img src="../Resources/PartyRockApp.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/PartyRockApp.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/PartyRockApp.png" alt="Dummy" /></div>
+            </div>
+            <div class="meta">
+                <h3 class="meta__title">Party Rock App</h3>
+                <span class="meta__brand">An app that gathers and displays all information about their favorite artist.</span>
+
+            </div>
+
+        </div>
+        <div class="grid__item websites">
+            <div class="slider">
+                <div class="slider__item"><img src="../Resources/Clubhub.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/Clubhub.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/Clubhub.png" alt="Dummy" /></div>
+            </div>
+            <div class="meta">
+                <h3 class="meta__title">Clubhub</h3>
+                <span class="meta__brand">Don't know what clubs to join, want to find out more about clubs? Clubhub is just for you!</span>
+            </div>
+        </div>
+        <div class="grid__item apps">
+            <div class="slider">
+                <div class="slider__item"><img src="../Resources/ShoeStack.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/ShoeStack.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/ShoeStack.png" alt="Dummy" /></div>
+            </div>
+            <div class="meta">
+                <h3 class="meta__title">Shoe Stack</h3>
+                <span class="meta__brand">Find all of your favorite shoes, find the hottest shoes, and buy them, all on this app</span>
+            </div>
+        </div>
+        <div class="grid__item apps">
+            <div class="slider">
+                <div class="slider__item"><img src="../Resources/Slide.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/Slide.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/Slide.png" alt="Dummy" /></div>
+            </div>
+            <div class="meta">
+                <h3 class="meta__title">Slide</h3>
+                <span class="meta__brand">Tetris, but with a touch modern and a little more flair</span>
+
+            </div>
+        </div>
+        <div class="grid__item websites">
+            <div class="slider">
+                <div class="slider__item"><img src="../Resources/PersonalWebsite.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/PersonalWebsite.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/PersonalWebsite.png" alt="Dummy" /></div>
+            </div>
+            <div class="meta">
+                <h3 class="meta__title">My Website</h3>
+                <span class="meta__brand">Arthur Zhang's cs portfolio, all in one website</span>
+            </div>
+        </div>
+        <div class="grid__item apps">
+            <div class="slider">
+                <div class="slider__item"><img src="../Resources/MiraclePills.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/MiraclePills.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/MiraclePills.png" alt="Dummy" /></div>
+            </div>
+            <div class="meta">
+                <h3 class="meta__title">Miracle Pills</h3>
+                <span class="meta__brand">Ever wish you could just take a pill to solve your problems? Miracle Pills do just that!</span>
+            </div>
+        </div>
+        <div class="grid__item apps">
+            <div class="slider">
+                <div class="slider__item"><img src="../Resources/RetroCalculator.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/RetroCalculator.png" alt="Dummy" /></div>
+                <div class="slider__item"><img src="../Resources/RetroCalculator.png" alt="Dummy" /></div>
+            </div>
+            <div class="meta">
+                <h3 class="meta__title">Retro Calculator</h3>
+                <span class="meta__brand">A simple calculator app with an out of the world look</span>
+            </div>
+        </div>
+    </section>
+    <!-- /grid-->
+</div>
+<!-- /view -->
+<script src="../../Downloads/FilterableProductGrid/js/isotope.pkgd.min.js"></script>
+<script src="../../Downloads/FilterableProductGrid/js/flickity.pkgd.min.js"></script>
+<script src="../../Downloads/FilterableProductGrid/js/main.js"></script>
 </body>
 
 </html>
