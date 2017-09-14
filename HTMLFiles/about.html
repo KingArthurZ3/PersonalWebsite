@@ -5,18 +5,23 @@
     <link rel="stylesheet" href="../CSSFiles/homePageStyle.css">
     <link rel="stylesheet" href="../CSSFiles/ProjectsBackgroundStyle.css">
     <title>About Me</title>
+    <script src="../JavascriptFiles/jquery-3.1.1.min.js"></script>
+    <script src="../JavascriptFiles/homePage.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-<div id="content">
-    <ul class="nav">
-        <li><a href="index.html" data-transition="slide">home</a></li>
-        <li><a href="about.html" data-transition="slide">about</a></li>
-        <li><a href="projects.html" data-transition="slide">projects</a></li>
-        <li><a href="contact.html" data-transition="slide">contact me</a></li>
 
-    </ul>
+<div id="mySideNav" class="sidenav">
+
+    <a href="javascript:void(0)" onclick="closeNav()" style="margin-left: 20px">&times;</a>
+    <a href="index.html" data-transition="slide">home</a>
+    <a href="about.html" data-transition="slide">about</a>
+    <a href="Projects.html" data-transition="slide">projects</a>
+    <a href="contact.html" data-transition="slide">contact me</a>
 </div>
-    <img src="../Resources/Love-Coding.jpg" id="coverPhoto">Better image is coming</img>
+
+<button onclick="openNav()" id="navButton"></button>
+
+    <!--<img src="../Resources/Love-Coding.jpg" id="coverPhoto">Better image is coming</img>-->
 </body>
 </html>
